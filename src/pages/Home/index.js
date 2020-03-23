@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import { MdAddShoppingCart } from 'react-icons/md';
@@ -12,6 +13,11 @@ import { ProductList } from './styles';
 class Home extends Component {
   state = {
     products: [],
+  };
+
+  static propTypes = {
+    addToCartRequest: PropTypes.func.isRequired,
+    amount: PropTypes.objectOf(PropTypes.number).isRequired,
   };
 
   async componentDidMount() {
