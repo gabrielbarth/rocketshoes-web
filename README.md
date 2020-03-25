@@ -1,7 +1,5 @@
 # web-rocketshoes <div align="start"> <img src="app-images/black-logo.png" width="280" />  </dov>
 
-
-
 :us: 
 <br>
 Web application to simulate shoes ecommerce in two pages: Home and Cart. Developed during <a href="https://rocketseat.com.br/">GoStack10 bootcamp</a>.
@@ -17,8 +15,11 @@ Aplicação web para simular um ecommerce de tênis em duas páginas: Home e Car
 - We use Redux to manipulate the global states of the application;
 - We also use Redux-saga, which allowed us to verify certain information before actually making changes to the store (global state of the application)
 - We connected the application with reactotron, which allowed us to follow the flow of information through the application, basically: COMPONENT -> ACTION -> REDUCER (STORE CHANGE) -> REDUX NOTIFY ALL COMPONENTS ABOUT THAT UPDATE AND WHICH IS WAITING FOR THE NOTICE IT IS RENDERED / UPDATED.
-<br>
 
+**[UPDATE]:** From the commit <a href="https://github.com/gabrielbarth/web-rocketshoes/commit/45210af6de1650f48de1995f60bc43667742a8c9">updatting components to react-hooks</a> 
+this app started to use react-hooks.
+
+<br>
 <span>&#x1f1e7;&#x1f1f7;</span>
 - Estilizamos a aplicação com styled-componentes, o que facilita e centraliza a estilização dos componentes do app;
 - Utilizamos JSON-SERVER para simular dados de uma API e fornecer as informações necessárias;
@@ -26,6 +27,8 @@ Aplicação web para simular um ecommerce de tênis em duas páginas: Home e Car
 - Tamém usamos o Redux-saga, que permitiu verificar determinadas informações antes de factualmente realizar mudanças no store (estado global da aplicação);
 - Conectamos a aplicação com o reactotron, que nos permitiu acompanhar o fluxo de informações pela aplicação, basicamente: COMPONENTE -> ACTION -> REDUCER (ALTERAÇÃO DA STORE) -> REDUX INFORMA TODOS OS COMPONENTES SOBRE A ATUALIZAÇÃO E, O COMPONENTE QUE ESTIVER AGUARDANDO ESSA ATUALIZAÇÃO É RENDERIZADO/ATUALIZADO. 
 <br>
+
+**[ATUALIZAÇÃO]:** A partir do commit <a href="https://github.com/gabrielbarth/web-rocketshoes/commit/45210af6de1650f48de1995f60bc43667742a8c9">updatting components to react-hooks</a>, a aplicação passou a utilizar react-hooks. 
 
 ##  :computer: View of interface / Visão da interface
 
