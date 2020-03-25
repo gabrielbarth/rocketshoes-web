@@ -20,15 +20,17 @@ Aplicação web para simular um ecommerce de tênis em duas páginas: Home e Car
 this app started to use react-hooks.
 
 <br>
+
 <span>&#x1f1e7;&#x1f1f7;</span>
 - Estilizamos a aplicação com styled-componentes, o que facilita e centraliza a estilização dos componentes do app;
 - Utilizamos JSON-SERVER para simular dados de uma API e fornecer as informações necessárias;
 - Utilizamos o Redux, para manipulação dos estados globais da aplicação;
 - Tamém usamos o Redux-saga, que permitiu verificar determinadas informações antes de factualmente realizar mudanças no store (estado global da aplicação);
-- Conectamos a aplicação com o reactotron, que nos permitiu acompanhar o fluxo de informações pela aplicação, basicamente: COMPONENTE -> ACTION -> REDUCER (ALTERAÇÃO DA STORE) -> REDUX INFORMA TODOS OS COMPONENTES SOBRE A ATUALIZAÇÃO E, O COMPONENTE QUE ESTIVER AGUARDANDO ESSA ATUALIZAÇÃO É RENDERIZADO/ATUALIZADO. 
-<br>
+- Conectamos a aplicação com o reactotron, que nos permitiu acompanhar o fluxo de informações pela aplicação, basicamente: COMPONENTE -> ACTION -> REDUCER (ALTERAÇÃO DA STORE) -> REDUX INFORMA TODOS OS COMPONENTES SOBRE A ATUALIZAÇÃO E, O COMPONENTE QUE ESTIVER AGUARDANDO ESSA ATUALIZAÇÃO É RENDERIZADO/ATUALIZADO. <br>
 
 **[ATUALIZAÇÃO]:** A partir do commit <a href="https://github.com/gabrielbarth/web-rocketshoes/commit/45210af6de1650f48de1995f60bc43667742a8c9">updatting components to react-hooks</a>, a aplicação passou a utilizar react-hooks. 
+
+<br>
 
 ##  :computer: View of interface / Visão da interface
 
