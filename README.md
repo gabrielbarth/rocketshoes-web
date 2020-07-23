@@ -1,4 +1,6 @@
-# web-rocketshoes <div align="start"> <img src="app-images/black-logo.png" width="280" />  </dov>
+<h1 align="center">
+ <img src="app-images/black-logo.png" width="280" /> 
+</h1>
 
 :us: 
 <br>
